@@ -1,0 +1,14 @@
+% Definir la matriz de coeficientes A
+A = [0 2 6;
+    -1 0 -1;
+     8 5 0];
+
+% Definir el vector de términos independientes b
+b = [8; -2; 13];
+
+% Resolver el sistema de ecuaciones usando la función de MATLAB \ (backslash)
+x = A \ b;
+
+% Mostrar el resultado
+disp('El valor de las incógnitas x1, x2, y x3 es:')
+disp(x)
